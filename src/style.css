@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  color: #000;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --van-blue: #1764ff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  max-width: 430px;
+  margin: 0 auto;
+  padding-bottom: env(safe-area-inset-bottom);
+  box-sizing: border-box;
+}
+
+.van-button {
+  font-size: var(--van-font-size-lg);
+  border-radius: 0.625rem;
+}
+
+@media (prefers-color-scheme: light) {
+}
